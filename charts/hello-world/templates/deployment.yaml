@@ -31,3 +31,5 @@ spec:
             httpGet:
               path: /
               port: http
+        - name: tools
+          image: bash:latest
