@@ -32,4 +32,4 @@ spec:
               path: /
               port: http
         - name: tools
-          image: bash:latest
+          image: busybox:latest
