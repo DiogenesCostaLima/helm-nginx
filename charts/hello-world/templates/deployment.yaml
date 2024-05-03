@@ -33,3 +33,5 @@ spec:
               port: http
         - name: tools
           image: busybox:latest
+          command: ["/bin/sh"] 
+          args: ["-c", "while true; do echo OK; sleep 5; done"]
